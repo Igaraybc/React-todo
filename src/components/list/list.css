@@ -1,0 +1,47 @@
+.list-todo-items p{
+    text-align: center;
+    font-size: .9em;
+    margin:2em 0 1em;
+    font-style: italic;
+}
+
+.todo-item{
+    border-bottom: 1px solid rgb(226, 225, 225);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    justify-items: start;
+    margin: 1em 0 2em;
+}
+
+.todo-item h3{
+    margin-bottom: .5em;
+}
+
+.todo-done {
+    text-decoration: line-through;
+    color: rgb(148, 148, 148);
+}
+
+.todo-time-done{
+    color: rgb(148, 148, 148);
+}
+
+.todo-item p{
+    text-align: left;
+    font-style: italic;
+    font-size: .7em;
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+}
+
+.todo-item svg{
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-right: 1em;
+    transition: .5s;
+}
+
+.todo-item svg:hover{
+    color:rgb(95, 95, 95);
+}
